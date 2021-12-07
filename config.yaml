@@ -1,0 +1,8 @@
+baseURL: "http://example.org/"
+languageCode: en-au
+title: Sticky Header/Footer
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
