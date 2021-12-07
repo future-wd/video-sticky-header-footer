@@ -3,12 +3,12 @@
   <head>
     {{ partial "head" . }}
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <header>
       {{/* partial "header" . */}}
       {{ partial "navbar" . }}
     </header>
-    <main>
+    <main class="mb-auto mt-5 pt-3">
       {{ block "main" . }}{{ end }}
     </main>
     <footer>
