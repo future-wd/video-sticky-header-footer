@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="hero">
-  <div class="container col-xxl-8">
-    <div class="row align-items-center justify-content-center py-5 g-5">
+  <div class="container col-xxl-8 g-5">
+    <div class="row align-items-center justify-content-center py-5">
       <div class="col-10 col-sm-8 col-lg-6">
         <img src="/img/bootstrap-themes.png" alt="Bootstrap Themes" class="img-fluid d-block mx-auto">
       </div>
@@ -16,7 +16,8 @@
           {{ end }}
           {{ with .Params.btn2 }}
           {{ if and .text .url }}
-          <a role="button" href="{{ .url }}" class="btn btn-lg btn-outline-secondary px-4" target="_blank">{{ .text }}</a>
+          <a role="button" href="{{ .url }}" class="btn btn-lg btn-outline-secondary px-4" target="_blank">{{ .text
+            }}</a>
           {{ end }}
           {{ end }}
         </div>
